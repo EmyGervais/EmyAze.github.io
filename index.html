@@ -26,13 +26,6 @@ function intoArray(lines) {
     document.write(lineArr[2]);
     document.write(lineArr[3]);
     document.write(lineArr[3]);
-	
-    var randomItem = lineArr[Math.floor(Math.random()*lineArr.length)];
-    document.getElementById("demo").innerHTML = "#" + randomItem;
-    for (i = 1; i <= 14; i++) { 
-        var randomItem = lineArr[Math.floor(Math.random()*lineArr.length)];
-	document.getElementById("demo").innerHTML += " " + "#" + randomItem;
-    }
 }
 
 // Reusable code below, only needed without jQuery.
