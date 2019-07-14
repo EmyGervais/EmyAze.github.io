@@ -12,8 +12,8 @@ var myArray = [
   "Bananas",
   "Pears"
 ];
-  
-getData('hashtags.txt', 'myArray', handleSuccess, handleError);
+	
+getData('hashtags.txt', 'text', handleSuccess, handleError);
 
 function handleSuccess(data) {
     intoArray(data);
@@ -89,7 +89,7 @@ function getData(url, responseType, successHandler, errorHandler) {
 
     // void open(DOMString method, DOMString url, boolean async)
     xmlhttp.open("GET", url, true);
-    xmlhttp.send();
+    xmlhttp.send(null);
 }
 
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
