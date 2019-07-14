@@ -20,11 +20,11 @@ function handleError(xmlhttp, statusText, errorText) {
 
 // This will read file and send information to other function
 function intoArray(lines) {
-    var myArray = lines.split('\n');
-	
+    var lineArr = lines.split('\n');
+
     // Just to check if it works output lineArr[index] as bellow*
-    document.write(myArray[2]);
-    document.write(myArray[3]);
+    document.write(lineArr[2]);
+    document.write(lineArr[3]);
 }
 
 // Reusable code below, only needed without jQuery.
@@ -84,7 +84,7 @@ function getData(url, responseType, successHandler, errorHandler) {
 
     // void open(DOMString method, DOMString url, boolean async)
     xmlhttp.open("GET", url, true);
-    xmlhttp.send(null);
+    xmlhttp.send();
 }
 
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
