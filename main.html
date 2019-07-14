@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<script>
+var myArray = [
+  "Apples",
+  "Bananas",
+  "Pears"
+];
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+
+document.getElementById("demo").innerHTML = "#" + randomItem;
+for (i = 0; i < 10; i++) { 
+  document.getElementById("demo").innerHTML += " " + "#" + randomItem;
+}
+</script>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+</body>
+</html>
