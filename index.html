@@ -12,13 +12,35 @@ var myArray = [
   "Bananas",
   "Pears"
 ];
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+  
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                alert(allText);
+            }
+        }
+    }
+    rawFile.send(null);
+}
+readTextFile("hashtags.txt");
 
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 document.getElementById("demo").innerHTML = "#" + randomItem;
-for (i = 0; i < 10; i++) { 
-  document.getElementById("demo").innerHTML += " " + "#" + randomItem;
+for (i = 0; i < 15; i++) { 
+	var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+    document.getElementById("demo").innerHTML += " " + "#" + randomItem;
 }
 </script>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 
 </body>
 </html>
