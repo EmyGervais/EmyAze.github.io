@@ -28,11 +28,11 @@ function readTextFile(file)
             }
         }
     }
-    rawFile.send(myArray);
+    rawFile.send(null);
 }
 readTextFile("hashtags.txt");
 
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+var randomItem = rawFile[Math.floor(Math.random()*rawFile.length)];
 document.getElementById("demo").innerHTML = "#" + randomItem;
 for (i = 0; i < 15; i++) { 
 	var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
