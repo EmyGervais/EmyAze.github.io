@@ -90,7 +90,7 @@ function getData(url, responseType, successHandler, errorHandler) {
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 document.getElementById("demo").innerHTML = "#" + randomItem;
 for (i = 1; i <= 14; i++) { 
-	var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+	var randomItem = lineArr[Math.floor(Math.random()*lineArr.length)];
     document.getElementById("demo").innerHTML += " " + "#" + randomItem;
 }
 </script>
