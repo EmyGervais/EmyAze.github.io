@@ -25,13 +25,14 @@ function intoArray(lines) {
     // Just to check if it works output lineArr[index] as bellow*
     document.write(lineArr[2]);
     document.write(lineArr[3]);
+    document.write(lineArr[3]);
 	
-	var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-	document.getElementById("demo").innerHTML = "#" + randomItem;
-	for (i = 1; i <= 14; i++) { 
-		var randomItem = lineArr[Math.floor(Math.random()*lineArr.length)];
-	    document.getElementById("demo").innerHTML += " " + "#" + randomItem;
-	}
+    var randomItem = lineArr[Math.floor(Math.random()*lineArr.length)];
+    document.getElementById("demo").innerHTML = "#" + randomItem;
+    for (i = 1; i <= 14; i++) { 
+        var randomItem = lineArr[Math.floor(Math.random()*lineArr.length)];
+	document.getElementById("demo").innerHTML += " " + "#" + randomItem;
+    }
 }
 
 // Reusable code below, only needed without jQuery.
