@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 
 exclude:
-  - assets/js/README.md
-  - assets/js/site_/README.md
-  - assets/js/index.html
-  - assets/js/site_/index.html
+  - EmyAze.github.io/assets/js/README.md
+  - EmyAze.github.io/assets/js/site_/README.md
+  - EmyAze.github.io/assets/js/index.html
+  - EmyAze.github.io/assets/js/site_/index.html
