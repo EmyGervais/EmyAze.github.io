@@ -92,7 +92,7 @@ There are 2 examples per section, click on them to start the file.
 <br />
 
 # Sounds
-[(Click here)]({% link sounds.markdown %})
+[(Click here)]({{ site.baseurl }}{% link sounds.markdown %})
 <br />
 
 # Others
