@@ -31,7 +31,9 @@ A file of 32Kb represents 32K tokens at the byte level. To alleviate this proble
 
 There are 2 examples per section, click on them to start the file. 
 
-# Moving checkered patterns
+Note: If your browser doesn't show the SWF properly, I included direct links. To view the SWF from direct links, install the Firefox/Chrome browser extension of [Ruffle](https://ruffle.rs/downloads) to see them directly in your browser, or download them on your computer and open them with the [Ruffle](https://ruffle.rs/downloads) app.
+
+# Moving checkered patterns (Direct links: [1](https://emygervais.github.io/assets/swf/checker1.swf), [2](https://emygervais.github.io/assets/swf/checker2.swf))
 
 <object type="application/x-shockwave-flash" data="{{ site.baseurl }}/assets/swf/checker1.swf"  style="width: 100%;">
   <param name="movie" value="{{ site.baseurl }}/assets/swf/checker1.swf">
@@ -48,7 +50,7 @@ There are 2 examples per section, click on them to start the file.
 </object>
 {% endcomment %}
 
-# Working memorizations
+# Working memorizations (Direct links: [1](https://emygervais.github.io/assets/swf/working1.swf), [2](https://emygervais.github.io/assets/swf/working2.swf))
 
 <object type="application/x-shockwave-flash" data="{{ site.baseurl }}/assets/swf/working1.swf" style="width: 100%;">
   <param name="movie" value="{{ site.baseurl }}/assets/swf/working1.swf">
@@ -57,7 +59,7 @@ There are 2 examples per section, click on them to start the file.
   <param name="movie" value="{{ site.baseurl }}/assets/swf/working2.swf">
 </object>
 
-# Weird broken animations
+# Weird broken animations (Direct links: [1](https://emygervais.github.io/assets/swf/weird1.swf), [2](https://emygervais.github.io/assets/swf/weird2.swf))
 
 <object type="application/x-shockwave-flash" data="{{ site.baseurl }}/assets/swf/weird1.swf" style="width: 100%;">
   <param name="movie" value="{{ site.baseurl }}/assets/swf/weird1.swf">
@@ -67,7 +69,7 @@ There are 2 examples per section, click on them to start the file.
 </object>
 
 
-# Infinite loading
+# Infinite loading (Direct links: [1](https://emygervais.github.io/assets/swf/loading1.swf), [2](https://emygervais.github.io/assets/swf/loading3.swf))
 
 <object type="application/x-shockwave-flash" data="{{ site.baseurl }}/assets/swf/loading1.swf" style="width: 100%;">
   <param name="movie" value="{{ site.baseurl }}/assets/swf/loading1.swf">
@@ -81,7 +83,7 @@ There are 2 examples per section, click on them to start the file.
   <param name="movie" value="{{ site.baseurl }}/assets/swf/loading3.swf">
 </object>
 
-# Characters
+# Characters (Direct links: [1](https://emygervais.github.io/assets/swf/semi7.swf), [2](https://emygervais.github.io/assets/swf/semi12.swf))
 
 <object type="application/x-shockwave-flash" data="{{ site.baseurl }}/assets/swf/semi7.swf" style="width: 100%;">
   <param name="movie" value="{{ site.baseurl }}/assets/swf/semi7.swf">
@@ -95,7 +97,7 @@ There are 2 examples per section, click on them to start the file.
 [(Click here)]({{ site.baseurl }}{% link sounds.markdown %})
 <br />
 
-# Others
+# Others (Direct links: [1](https://emygervais.github.io/assets/swf/text1.swf), [2](https://emygervais.github.io/assets/swf/semi14.swf))
 
 <object type="application/x-shockwave-flash" data="{{ site.baseurl }}/assets/swf/text1.swf" style="width: 100%;">
   <param name="movie" value="{{ site.baseurl }}/assets/swf/text1.swf">
@@ -119,3 +121,4 @@ ByteCraft is at the equivalent of GVAE for molecule generation in 2016 but on th
 Keep in mind that this was trained on extremely limited hardware (4 GPUs for 4 months). Our method scales with compute. The ceiling is far from being reached; we are at the very first stage of a new paradigm. 
 
 We hope this crazy project inspires researchers and hobbyists toward the lofty goal of generating games through bytes.
+
