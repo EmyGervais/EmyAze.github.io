@@ -21,7 +21,7 @@ Imagine a world where you can write a prompt describing a video game or animatio
   <figcaption>The first 128 bytes of a 15Kb game</figcaption>
 </figure>
 
-Our model, 🎮ByteCraft, was made by fine-tuning a 7B parameter LLM (Qwen2.5) at 32K generation context length on 4 GPUs for 4 months to generate thr bytes of video games and animations conditional on a text description of the desired file. The file can then be saved and read on your computer!
+Our model, 🎮ByteCraft, was made by fine-tuning a 7B parameter LLM (Qwen2.5) at 32K generation context length on 4 GPUs for 4 months to generate the bytes of video games and animations conditional on a text description of the desired file. The file can then be saved and read on your computer!
 
 Working in the byte world is extremely challenging because a single wrong byte can break the whole functioning of the file. Still, ByteCraft can generate some semi-functional and fully working files. The model is imperfect, but the fact that it can generate diverse readable files shows that the model has some understanding of bytes.
 
